@@ -1,0 +1,17 @@
+@use "../components/" as *;
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    border: 5px solid $lightGray;
+    font-family: "Courier Prime", monospace;
+    font-size: 16px;
+    color: $darkGray;
+
+    @media screen and (max-width: 600px) {
+        border: none;
+    }
+}

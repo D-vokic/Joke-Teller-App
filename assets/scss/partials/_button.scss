@@ -1,0 +1,32 @@
+@use "../components/" as *;
+
+button {
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    font-family: Courier, monospace;
+    font-size: 20px;
+    color: white;
+    background: #ff3482;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+
+    @media screen and (max-width: 1000px) {
+        box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    &:hover {
+        background: #ff4d9e;
+    }
+
+    &:active {
+        transform: scale(0.98);
+    }
+
+    &.disabled {
+        cursor: default;
+        filter: brightness(30%);
+    }
+}
