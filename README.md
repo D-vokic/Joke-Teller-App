@@ -4,8 +4,8 @@
 
 ## Joke Teller: Your Source of Chuckles and Giggles
 
-![Picture In Picture Api Preview](screenshot.png)
-You can check it out [here](https://github.com/D-vokic/Joke-Teller-App.git).
+![Joke Teller App Preview](screenshot.png)
+You can check it out [here]( https://d-vokic.github.io/Joke-Teller-App/).
 
 ## Author
 
@@ -36,7 +36,7 @@ These key features collectively contribute to the fun and enjoyable experience p
 ### Usage
 To use the "Joke Teller" application, follow these simple steps:
 1. Clone the repository to your local machine using the following command:
-```git clone https://github.com/D-vokic/Joke-Teller-App.git```
+```git clone https://github.com/D-vokic/Joke-Teller-App```
 1. Navigate to the project directory:
 ```cd joke-teller ```
 1. Open the index.html file in your preferred web browser.
